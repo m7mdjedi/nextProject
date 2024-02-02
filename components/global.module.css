@@ -1,0 +1,50 @@
+
+.form{ 
+    display: flex; 
+    flex-wrap: wrap ; 
+    padding:20px 10px; 
+    border-radius: 15px; 
+    width:50%; 
+    border:1px solid brown; 
+}
+.divInput{ 
+    width:100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin:5px auto;    
+
+}
+.label{ 
+    margin:0;
+}
+.input { 
+    width:100%; 
+    border:1px solid #aaa;
+    border-radius: 5px;
+    padding:5px; 
+    font-size: 24px;;
+    
+} 
+.buttonDiv{ 
+    width:100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin:5px auto;   
+    display: flex; 
+    flex-direction: row-reverse;
+}
+.button{ 
+    padding:10px 15px; 
+    background-color:brown; 
+    color:white; 
+    border :none; 
+    font-weight: 15px; 
+    border-radius: 5px;
+    cursor:pointer; 
+    box-sizing: border-box;
+}
+.button:hover{ 
+    border:1px solid brown; 
+    background-color: white; 
+    color:brown;    ;;
+}

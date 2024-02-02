@@ -1,0 +1,54 @@
+
+.meetupItem{ 
+    width: 60%;  
+    display: flex;; 
+    flex-wrap: wrap; 
+;   justify-content: center; 
+align-items: center;
+border-radius: 15px; ;
+border-bottom: 2px solid brown;
+margin-bottom: 20px; 
+overflow: hidden;
+}
+
+.imageDiv{ 
+    width:100%; 
+    
+    overflow: hidden;
+
+} 
+.image{ 
+    width:100%; 
+    background-size: cover;
+}
+.detailsDiv{ 
+    text-align: center;
+    width:100%; 
+    margin:10px;
+ 
+} 
+
+.detailsTile{ 
+    text-transform: capitalize;
+} 
+.detailsDescription{ 
+    color:#bbb; 
+
+} 
+
+.detailsAddress{ 
+    font-style: italic;
+}
+.btnDetails{ 
+    border:none; 
+    color:white; 
+    cursor: pointer;
+    padding:5px 10px;
+    border-radius: 3px;;
+    background-color: brown;
+}
+.btnDetails:hover{ 
+    background-color: white; 
+    color:brown; 
+    border:1px solid brown;
+}
